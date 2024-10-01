@@ -1,0 +1,190 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Daniel Furmanov} \\ \vspace{3pt}
+    \small
+    \faIcon{phone} (718)-614-0080 $|$ 
+    \faIcon{envelope} \href{mailto:danielfurmanov@hotmail.com}{\underline{danielfurmanov@hotmail.com}} $|$ 
+    \faIcon{linkedin} \href{https://www.linkedin.com/in/daniel-furmanov/}{\underline{LinkedIn}} $|$
+    \faIcon{github} \href{https://github.com/Acamerus}{\underline{GitHub}} \\
+    \faIcon{flag-usa} Brooklyn, NY $|$ 
+    \faIcon{language} Fluent in English and Intermediate in Russian
+\end{center}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Baruch College}{Aug 2025 -- May 2027}
+      {Bachelor of Arts in Computer Science}{New York, NY}
+    \resumeSubheading
+      {Borough of Manhattan Community College}{Aug 2022 -- May 2025}
+      {Associate's in Computer Science, GPA: 3.52/4}{New York, NY}
+      
+  \resumeSubHeadingListEnd
+
+%-----------RELEVANT COURSEWORK-----------
+\section{Relevant Coursework}
+\begin{multicols}{2}
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     $\bullet$ Data Structures \& Algorithms \\
+     $\bullet$ Object-Oriented Programming I \\
+     $\bullet$ Database Management Systems \\
+     $\bullet$ Computer Networking
+    }}
+\end{itemize}
+\end{multicols}
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Undergraduate Research Assistant}{Mar 2024 -- May 2024}
+      {Borough of Manhattan Community College}{New York, NY}
+      \resumeItemListStart
+        \resumeItem{Operated Z3 Tensile Machine using GripSoft ZPM software, optimizing data recording processes.}
+        \resumeItem{Created a custom manual simplifying machine operation for current and future assistants.}
+        \resumeItem{Recorded and documented experimental results to be exported to Excel, enhancing data accuracy and research efficiency.}
+      \resumeItemListEnd
+      
+    \resumeSubheading
+      {Product Management Intern}{Jul 2023 -- Aug 2023}
+      {Unadat}{Remote, NY}
+      \resumeItemListStart
+        \resumeItem{Developed customer-centric project plans, conducting market research to improve product outcomes.}
+        \resumeItem{Utilized Asana's Sprint Planning features to define and track Sprint Goals, successfully delivering 12 potentially shippable products over 1 month.}
+        \resumeItem{Lead Sprint Planning and Sprint Reviews for 5 cross-functional sub-teams, utilizing Asana's timeline and board views to visualize sprint goals and track progress against the Definition of Done (DoD). }
+        \resumeItem{\underline{\href{https://drive.google.com/file/d/1lSTmuJKIGvZIinKhiqLikzGGo5gCskIr/view?usp=sharing}{Click to see: Supervisor Assessment/Evaluation Report}}}
+    \resumeItemListEnd
+
+
+    \resumeSubheading
+      {Remittance Processor}{Nov 2021 -- May 2022}
+      {Advanced Accounting Services, Inc}{New York, NY}
+      \resumeItemListStart
+        \resumeItem{Processed bank statements into AccountantsWorld, ensuring accurate and timely financial record updates.}
+        \resumeItem{Organized financial documents, improving accessibility and streamlining the retrieval process.}
+        \resumeItem{Converted financial data into Excel spreadsheets, optimizing data organization and reporting efficiency.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Course Database: Bank Loan Customers} $|$ \emph{SQL, Access, Database Modeling, Excel}}{Jun 2024 -- Jul 2024}
+          \resumeItemListStart
+            \resumeItem{Architected a banking database system using ER modeling and UML notation, normalized to BCNF across 6 core tables.}
+            \resumeItem{Implemented complex SQL queries for data manipulation, including multi-table JOINs and subqueries for comprehensive reports.}
+            \resumeItem{Developed a normalized Microsoft Access application with parameterized queries and custom VBA functions.}
+            \resumeItem{Created an intuitive UI using Access forms with embedded macros and event procedures for real-time financial analytics.}
+             \resumeItem{Produced a normalized Access/SQL database from Excel import to automate customer accounts and transactions, enhancing data integrity, security, and ability to add new data. }
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{:SQL, C++, Python} \\
+     \textbf{Frameworks}{: JetSQL } \\
+     \textbf{Developer Tools}{: Git, Bitbucket,Google Cloud Platform, Visual Studio} \\
+     \textbf{Libraries}{: SciPy, NumPy}
+    }}
+ \end{itemize}
+
+\end{document}
+
+\end{document}
